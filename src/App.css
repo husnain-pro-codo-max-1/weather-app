@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+
+body{
+  background:mediumseagreen;
+}
+
+.weather-box{
+  width:500px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50% , -50%);
+  box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+  border-radius:10px;
+  text-align: center;
+}
+.weather-header h1{
+  color:white;
+  margin:15px;
+}
+
+.weather-input{
+border:none;
+outline:none;
+margin:20px;
+}
+
+.weather-city{
+  color: white;
+  margin:20px
+
+}
+.weather-row{
+  display:flex;
+  flex-direction:row;
+  color:white;
+  margin:20px
+}
+.weather-col{
+  flex-basis:50%;
+}
